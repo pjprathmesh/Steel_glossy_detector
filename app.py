@@ -16,6 +16,7 @@ api=Api(app)
 class Image(Resource):
     def post(self):
         tem=request.form
+        return "ok done"
 #         with open("imageToSave.png", "wb") as fh:
 #             fh.write(base64.decodebytes(bytes(tem["image"], 'utf-8') ))
             
@@ -54,7 +55,7 @@ class Image(Resource):
         
 #         return {"prob":prob}
         
-        return "ok done"
+#         return "ok done"
 api.add_resource(Image,'/')
 if __name__=="__main__":
     app.run(debug=True)
