@@ -55,7 +55,7 @@ class Image(Resource):
         else:
             print("probablity",int(prob))
         
-        return {"prob":prob}
+        return {"prob":int(prob)}
         
 api.add_resource(Image,'/')
 if __name__=="__main__":
