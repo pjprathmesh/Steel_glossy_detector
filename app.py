@@ -53,7 +53,7 @@ class Image(Resource):
             prob=3
             print("probablity",3)
         else:
-            print("probablity",prob)
+            print("probablity",int(prob))
         
         return {"prob":prob}
         
