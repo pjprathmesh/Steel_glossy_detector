@@ -7,16 +7,17 @@
 
 from flask import Flask,request
 from flask_restful import Resource,Api
-import cv2
-import matplotlib.pyplot as plt
-import base64
-import numpy as np
+# import cv2
+# import matplotlib.pyplot as plt
+# import base64
+# import numpy as np
 app=Flask(__name__)
 api=Api(app)
 class Image(Resource):
     def post(self):
-        tem=request.form
         return "ok done"
+#         tem=request.form
+        
 #         with open("imageToSave.png", "wb") as fh:
 #             fh.write(base64.decodebytes(bytes(tem["image"], 'utf-8') ))
             
