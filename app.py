@@ -55,4 +55,4 @@ class Image(Resource):
         return {"prob":prob}
 api.add_resource(Image,'/')
 if __name__=="__main__":
-    app.run(host="0.0.0.0")
+    app.run()
