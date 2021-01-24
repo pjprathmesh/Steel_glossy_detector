@@ -54,7 +54,7 @@ class Image(Resource):
         
 #         return {"prob":prob}
         
-        return tem["image"]
+        return "ok done"
 api.add_resource(Image,'/')
 if __name__=="__main__":
     app.run()
