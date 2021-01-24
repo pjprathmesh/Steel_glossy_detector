@@ -1,0 +1,6 @@
+Flask_RESTful==0.3.8
+Flask==1.1.1
+opencv_python==4.2.0.32
+numpy==1.18.1
+matplotlib==3.1.2
+gunicorn
