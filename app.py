@@ -57,4 +57,4 @@ class Image(Resource):
         return "ok done"
 api.add_resource(Image,'/')
 if __name__=="__main__":
-    app.run()
+    app.run(debug=True)
